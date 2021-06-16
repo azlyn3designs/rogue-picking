@@ -1,0 +1,172 @@
+/* CSS styles for Rouge Picking Project */
+
+/* BASE STYLES */
+
+body {
+    color: black;
+    font-family: montserrat,sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    width: 1240px;
+}
+
+
+/* GRID TYPES */
+
+.full-width {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.third-width {
+    float: left;
+    width: 400px;
+}
+
+.two-third-width {
+    float: right;
+    width: 800px;
+}
+
+
+/* HEADER */
+
+header .full-width {
+    height: 115px;
+    border-bottom: 3px solid #77a466;
+}
+
+header h1 {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 42px 0 0 10px;
+    text-transform: uppercase;
+}
+
+header h1 span {
+    color: #77a466;
+    text-transform: uppercase;
+}
+
+
+/* HORIZONTAL NAV BAR */
+
+a {
+    color: #77a466;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav {
+    float: right;
+    margin-top: 28px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding-right: 13px;
+}
+
+
+/* MAIN */
+
+figure img {
+    margin: 0 auto;
+}
+
+
+/* CALL-TO-ACTION */
+
+#cta .full-width {
+    border-top: 3px solid #77a466;
+    margin: -3px 20px;
+    height: 175px;
+}
+
+#cta h2 {
+    color: #77a466;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 27px;
+    text-transform: uppercase;
+}
+
+#cta p {
+    line-height: 25px;
+    margin-top: 17px;
+}
+
+
+/* FOCUSED INTERESTS */
+
+#focused-info .full-width {
+    height: 210px;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+}
+
+#focused-info h3 {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 25px;
+    padding-top: 17px;
+    text-transform: uppercase;
+}
+
+
+/* DAILY SPECIALS */
+
+#daily-specials ul li {
+    color: #77a466;
+    line-height: 18px;
+    list-style-type: none;
+    padding-bottom: 18px;
+    margin-left: -40px;
+}
+
+
+/* REVIEWS */
+
+#reviews {
+    border-left: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+    padding: 0 30px;
+}
+
+#reviews p {
+    line-height: 21px;
+}
+
+
+/* CONTACT INFO */
+
+#contact {
+    padding-left: 30px;
+}
+
+#contact address {
+    font-style: normal;
+    line-height: 24px;
+}
+
+
+/* FOOTER */
+
+#tagline h4 {
+    clear: both;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#tagline h4 span {
+    color: #77a466;
+    font-family: Galada, sans-serif;
+    font-weight: 400;
+    text-transform: none;
+}
